@@ -1,0 +1,156 @@
+<html><head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+          <img id="logo" name="logo" class="logo" src="https://www.amentum.com/wp-content/uploads/Amentum_Logo-RGB-White-Full_Color_H.svg"/>
+        <h1 id="title" class="text-center" name="form-title">Customer Satisfaction Survey</h1>
+        <p id="description" class="description text-center">
+            By participating, you will play a crucial role in shaping the future direction of our organization and ensuring we uphold our shared values of ethical conduct, accountability, open communication, continuous enhancement, and strong leadership.
+            Your input will directly contribute to cultivating a culture of excellence, fostering an environment of trust and empowerment, and driving meaningful improvements that benefit us all.
+            <br ><br >We appreciate you taking the time to make your voice heard through this survey.
+        </p>
+      </header>
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+          <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required="">
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+          <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required="">
+        </div>
+        
+        <div class="form-group">
+          <p>Please let us know your work location:</p>
+          <select id="dropdown" name="role" class="form-control" required="">
+            <option disabled="" selected="" value="">Select current location</option>
+            <option value="bothell">Bothell</option>
+            <option value="chesterfield">Chesterfield</option>
+            <option value="groton">Groton</option>
+            <option value="la_jolla">La Jolla</option>
+            <option value="new_haven">New Haven</option>
+            <option value="pearl_river">Pearl River</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+            <h2>Question 1 - Integrity</h2>
+          <p>Is Amentum living in accordance with our shared values?</p>
+          <ul>
+              <li>Commitment to ethical standards</li>
+              <li>Respect other's opinions</li>
+              <li>Honor our commitments</li>
+              <li>Help others</li>
+          </ul>
+          <label><input name="integrity" value="poor" type="radio" class="input-radio" checked=""><span class="red">POOR </span><span class="desc">(Behavior NOT EXISTENT)</span></label>
+          <label><input name="integrity" value="needs_improvement" type="radio" class="input-radio"><span class="orange">NEEDS IMPROVEMENT </span><span class="desc">(Behavior RARELY exhibited)</span></label>
+          <label><input name="integrity" value="satisfactory" type="radio" class="input-radio"><span class="yellow">SATISFACTORY </span><span class="desc">(Behavior FREQUENTLY exhibited)</span></label>
+          <label><input name="integrity" value="very_good" type="radio" class="input-radio"><span class="ltgreen">VERY GOOD </span><span class="desc">(Behavior ALMOST ALWAYS exhibited)</span></label>
+          <label><input name="integrity" value="exceptional" type="radio" class="input-radio"><span class="green">EXCEPTIONAL </span><span class="desc">(Behavior CONSTANTLY & CONSISTENTLY exhibited)</span></label>
+        </div>
+
+        <div class="form-group">
+            <p>Any comments or suggestions?</p>
+            <textarea id="comments" class="input-textarea" name="q1comment" placeholder="Enter your comment here..."></textarea>
+          </div>
+
+        <div class="form-group">
+            <h2>Question 2 - Ownership & Commitment</h2>
+          <p>Are we taking responsibility for results and empowered to make needed decisions?</p>
+          <ul>
+              <li>Equally committed to success of both parties</li>
+              <li>Continuous contribution to shared goals</li>
+              <li>Focus on business objectives</li>
+              <li>Accountable for our results</li>
+              <li>Promoting empowerment of employees</li>
+          </ul>
+          <label><input name="ownership_commitment" value="poor" type="radio" class="input-radio" checked=""><span class="red">POOR </span><span class="desc">(Behavior NOT EXISTENT)</span></label>
+          <label><input name="ownership_commitment" value="needs_improvement" type="radio" class="input-radio"><span class="orange">NEEDS IMPROVEMENT </span><span class="desc">(Behavior RARELY exhibited)</span></label>
+          <label><input name="ownership_commitment" value="satisfactory" type="radio" class="input-radio"><span class="yellow">SATISFACTORY </span><span class="desc">(Behavior FREQUENTLY exhibited)</span></label>
+          <label><input name="ownership_commitment" value="very_good" type="radio" class="input-radio"><span class="ltgreen">VERY GOOD </span><span class="desc">(Behavior ALMOST ALWAYS exhibited)</span></label>
+          <label><input name="ownership_commitment" value="exceptional" type="radio" class="input-radio"><span class="green">EXCEPTIONAL </span><span class="desc">(Behavior CONSTANTLY & CONSISTENTLY exhibited)</span></label>
+        </div>
+
+        <div class="form-group">
+            <p>Any comments or suggestions?</p>
+            <textarea id="comments" class="input-textarea" name="q2comment" placeholder="Enter your comment here..."></textarea>
+          </div>
+
+        <div class="form-group">
+            <h2>Question 3 - Transparency & Communication</h2>
+          <p>Are we truly listening to each other?</p>
+          <ul>
+              <li>Providing proactive communication</li>
+              <li>Encourage truth</li>
+              <li>Share points of view</li>
+              <li>Two-way feedback</li>
+              <li>Encourage teams to speak freely</li>
+          </ul>
+          <label><input name="transparent_communication" value="poor" type="radio" class="input-radio" checked=""><span class="red">POOR </span><span class="desc">(Behavior NOT EXISTENT)</span></label>
+          <label><input name="transparent_communication" value="needs_improvement" type="radio" class="input-radio"><span class="orange">NEEDS IMPROVEMENT </span><span class="desc">(Behavior RARELY exhibited)</span></label>
+          <label><input name="transparent_communication" value="satisfactory" type="radio" class="input-radio"><span class="yellow">SATISFACTORY </span><span class="desc">(Behavior FREQUENTLY exhibited)</span></label>
+          <label><input name="transparent_communication" value="very_good" type="radio" class="input-radio"><span class="ltgreen">VERY GOOD </span><span class="desc">(Behavior ALMOST ALWAYS exhibited)</span></label>
+          <label><input name="transparent_communication" value="exceptional" type="radio" class="input-radio"><span class="green">EXCEPTIONAL </span><span class="desc">(Behavior CONSTANTLY & CONSISTENTLY exhibited)</span></label>
+        </div>
+
+        <div class="form-group">
+            <p>Any comments or suggestions?</p>
+            <textarea id="comments" class="input-textarea" name="q3comment" placeholder="Enter your comment here..."></textarea>
+          </div>
+
+        <div class="form-group">
+            <h2>Question 4 - Innovation & Continuous Improvement</h2>
+          <p>Are we proactively bringing ideas for improvement of the facilities?</p>
+          <ul>
+              <li>Embraces creative thinking and new ideas</li>
+              <li>Engages employees at all levels to identify improvement opportunities</li>
+              <li>Encourage growth and support of your business</li>
+              <li>Improve efficiency</li>
+              <li>Foresee; plan for the future</li>
+          </ul>
+          <label><input name="innovation_ci" value="poor" type="radio" class="input-radio" checked=""><span class="red">POOR </span><span class="desc">(Behavior NOT EXISTENT)</span></label>
+          <label><input name="innovation_ci" value="needs_improvement" type="radio" class="input-radio"><span class="orange">NEEDS IMPROVEMENT </span><span class="desc">(Behavior RARELY exhibited)</span></label>
+          <label><input name="innovation_ci" value="satisfactory" type="radio" class="input-radio"><span class="yellow">SATISFACTORY </span><span class="desc">(Behavior FREQUENTLY exhibited)</span></label>
+          <label><input name="innovation_ci" value="very_good" type="radio" class="input-radio"><span class="ltgreen">VERY GOOD </span><span class="desc">(Behavior ALMOST ALWAYS exhibited)</span></label>
+          <label><input name="innovation_ci" value="exceptional" type="radio" class="input-radio"><span class="green">EXCEPTIONAL </span><span class="desc">(Behavior CONSTANTLY & CONSISTENTLY exhibited)</span></label>
+        </div>
+
+        <div class="form-group">
+            <p>Any comments or suggestions?</p>
+            <textarea id="comments" class="input-textarea" name="q4comment" placeholder="Enter your comment here..."></textarea>
+          </div>
+
+        <div class="form-group">
+            <h2>Question 5 - Leadership Performance</h2>
+          <p>How well does our site leadership team perform?</p>
+          <ul>
+              <li>Hiring and leading a strong performing team</li>
+              <li>Manage workload</li>
+              <li>Drive positive results</li>
+              <li>Fostering relationship with strong client collaboration</li>
+              <li>Effectively manage client needs and priorities</li>
+          </ul>
+          <label><input name="leadership" value="poor" type="radio" class="input-radio" checked=""><span class="red">POOR </span><span class="desc">(Behavior NOT EXISTENT)</span></label>
+          <label><input name="leadership" value="needs_improvement" type="radio" class="input-radio"><span class="orange">NEEDS IMPROVEMENT </span><span class="desc">(Behavior RARELY exhibited)</span></label>
+          <label><input name="leadership" value="satisfactory" type="radio" class="input-radio"><span class="yellow">SATISFACTORY </span><span class="desc">(Behavior FREQUENTLY exhibited)</span></label>
+          <label><input name="leadership" value="very_good" type="radio" class="input-radio"><span class="ltgreen">VERY GOOD </span><span class="desc">(Behavior ALMOST ALWAYS exhibited)</span></label>
+          <label><input name="leadership" value="exceptional" type="radio" class="input-radio"><span class="green">EXCEPTIONAL </span><span class="desc">(Behavior CONSTANTLY & CONSISTENTLY exhibited)</span></label>
+        </div>
+
+        <div class="form-group">
+          <p>Any comments or suggestions?</p>
+          <textarea id="comments" class="input-textarea" name="q5comment" placeholder="Enter your comment here..."></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  
+
+</body></html>
